@@ -1,0 +1,11 @@
+{
+  "name": "projet3_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch C:/Users/Antoine/Desktop/Projet3_OC/main.scss:main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

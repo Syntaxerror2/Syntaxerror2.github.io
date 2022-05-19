@@ -1,0 +1,19 @@
+{
+  "name": "projet3_oc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch C:/Users/Antoine/Desktop/Projet3_OC/styles.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syntaxerror2/OC_Projet3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syntaxerror2/OC_Projet3/issues"
+  },
+  "homepage": "https://github.com/Syntaxerror2/OC_Projet3#readme"
+}
