@@ -10,6 +10,7 @@
 .mainDishes {
   display: flex;
   justify-content: center;
+  position: relative;
 
   &::after {
    
@@ -332,6 +333,7 @@ justify-content: space-around;
     width: 35px;
     background-color: white;
     white-space: nowrap;
+  
   }
   
 .menu__item {
@@ -388,6 +390,7 @@ justify-content: space-around;
 
   &__container {
   background-color: #353535;
+  padding-top: 1rem;
   }
   &__logo {
     color: #fff;
@@ -412,8 +415,6 @@ justify-content: space-around;
   }
   
 }
-
-
 
 
 
