@@ -8,6 +8,7 @@
   .mainDishes {
     display: flex;
     justify-content: center;
+    position: relative;
   }
   .mainDishes::after {
     content: "";
@@ -364,6 +365,7 @@ body {
 }
 .footer__container {
   background-color: #353535;
+  padding-top: 1rem;
 }
 .footer__logo {
   color: #fff;
