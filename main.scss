@@ -34,9 +34,18 @@
     100% {
       transform: translateY(-30px);
       opacity: 0;
-      background-color: white;
     }
   }
+
+  @keyframes apparition {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
 
   .loader__container {
     position: absolute;
@@ -50,6 +59,7 @@
     animation: loader 1s;
     animation-delay: 1.25s;
     animation-fill-mode: both;
+   
   }
   
   .dot {
@@ -155,6 +165,7 @@ a {
     z-index: 0;
     
   }
+
   
 .btn__command {
     border-radius: 100px;
@@ -221,6 +232,7 @@ a {
     margin-bottom: 1.2rem;
     display: flex;
     background-color: #f6f6f6;
+    
 }
 
 .wrapper__count {
@@ -273,7 +285,6 @@ a {
 .restaurants__wrapper {
     border-radius: 1rem;
     background-color: white;
-    /*max-width: 39.8rem;*/
     max-width: 57rem;
     min-width: 45%;
     margin-bottom: 1rem;
@@ -347,9 +358,9 @@ a {
 
 .footer {
     margin: 0;
-  
     &__container {
     background-color: #353535;
+    padding-top: 2rem;
     }
     &__logo {
       color: #fff;

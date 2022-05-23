@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass":"sass --watch C:/Users/Antoine/Desktop/Projet3_OC/styles.scss:style.css"
+    "sass":"sass --watch C:/Users/Antoine/Desktop/Projet3_OC/styles.scss:style.css C:/Users/Antoine/Desktop/Projet3_OC/main.scss:main.css"
   },
   "repository": {
     "type": "git",

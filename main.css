@@ -4,7 +4,6 @@
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
-    color: red;
   }
 
   .wrapper__placement {
@@ -30,7 +29,14 @@
   100% {
     transform: translateY(-30px);
     opacity: 0;
-    background-color: white;
+  }
+}
+@keyframes apparition {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 .loader__container {
@@ -241,7 +247,6 @@ a {
 .restaurants__wrapper {
   border-radius: 1rem;
   background-color: white;
-  /*max-width: 39.8rem;*/
   max-width: 57rem;
   min-width: 45%;
   margin-bottom: 1rem;
@@ -310,6 +315,7 @@ a {
 }
 .footer__container {
   background-color: #353535;
+  padding-top: 2rem;
 }
 .footer__logo {
   color: #fff;
