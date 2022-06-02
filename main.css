@@ -186,9 +186,9 @@ a {
 }
 
 .Restaurants__title {
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .wrapper__placement {
@@ -248,7 +248,8 @@ a {
 .restaurants__wrapper__flex {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 1rem;
+  /*padding-bottom: 1rem;*/
+  margin-left: 1.3rem;
 }
 
 .restaurants__wrapper {
