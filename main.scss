@@ -310,12 +310,32 @@ a {
     object-fit: cover;
     border-top-left-radius:1rem;
     border-top-right-radius:1rem ;
+    position: relative;
+    z-index: 0;
+}
+.new__placement {
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+.new__restaurants {
+    background-color: #99e2d0;
+    text-align: end;
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    margin-left: 1.3rem;
+    margin-top: 1rem;
+    color: black;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
 }
 
 .wrapper__display {
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 50px;
     min-width: 70%;
     max-width: 100%;
     padding: 1rem; 
@@ -328,7 +348,7 @@ a {
 }
 
 .wrapper__restaurantTitle {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -336,7 +356,7 @@ a {
 }
 
 .wrapper__restaurantLocation {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-decoration: none;
     color: black;
     
